@@ -10,30 +10,50 @@ header{
     justify-content:center;
     align-items: center;
     height: 70px;
-    /* debug */
     background-color: #add8e7;
 }
 
-/* cambiare nome della classe */
+/* CHANGE CLASS NAME */
 .container-header{
     background-color: #daa51d;
-    border: 1px solid black;
-    height: 30px;
+    border: 2px dashed black;
+    height: 40px;
     padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .logo{
-    flex-basis: 150px;
+    flex-basis: 200px;
 }
 
 .link{
-    flex-basis: 450px;
-    text-align: center;
+    flex-basis: 600px;
+    justify-content: center;
 }
 
 .login{
-    flex-basis: 150px;
-    text-align: end;
-
+    flex-basis: 200px;
+    justify-content: flex-end;
 }
+
+/*main rules */
+
+/*section rules */
+#jumbotron{
+    background-color: #00018b;
+    height:400px;
+    display: flex;
+    justify-content:center;
+    padding: 40px;
+}
+
+.jumbotron-content{
+    background-color: #ef82ed;
+    flex-basis: 50%;
+    border: 2px dashed black;
+}
+
+
+
 
