@@ -39,7 +39,9 @@ header{
 
 /*main rules */
 
-/*section rules */
+
+/*jumbotron rules */
+
 #jumbotron{
     background-color: #00018b;
     height:400px;
@@ -48,10 +50,64 @@ header{
     padding: 40px;
 }
 
+/* pink rectangle rules */
+
 .jumbotron-content{
     background-color: #ef82ed;
     flex-basis: 50%;
     border: 2px dashed black;
+}
+
+/* containers with two squares rules */
+.container-main{
+    display: flex;
+    justify-content:center;
+    height: 400px;
+    padding: 30px;
+}
+
+.container-main.gray,
+.last-container-main.gray{
+    background-color: #d3d3d3;
+}
+
+/* square rules */
+.content-main{
+    border: 2px dashed black;
+}
+
+.content-main.light-blue{
+    background-color: #1e90ff;
+    flex-basis: 40%;
+
+}
+.content-main.salmon{
+    background-color: #ffc0ca;
+    flex-basis: 30%;
+}
+
+/* inverse square */
+.pink.inverse{
+    order: -1;
+}
+
+/* last container with green square rules  */
+
+.last-container-main.gray{
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+}
+
+.last-content-main{
+    flex-basis: 60%;
+    border: 2px dashed black;
+
+}
+
+.last-content-main.green{
+    background-color: #218b21;
 }
 
 
