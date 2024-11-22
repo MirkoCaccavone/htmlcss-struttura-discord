@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70px;
+    /* debug */
+    background-color: #add8e7;
+}
+
+/* cambiare nome della classe */
+.container-header{
+    background-color: #daa51d;
+    border: 1px solid black;
+    height: 30px;
+    padding: 5px;
+}
+
+.logo{
+    flex-basis: 150px;
+}
+
+.link{
+    flex-basis: 450px;
+    text-align: center;
+}
+
+.login{
+    flex-basis: 150px;
+    text-align: end;
+
+}
+
